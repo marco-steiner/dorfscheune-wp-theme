@@ -1,0 +1,30 @@
+/*
+Theme Name: Dorfscheune Stübach
+Theme URI: https://steinermarco.de
+Author: Marco Steiner
+Author URI: https://steinermarco.de
+Description: 2019 - A Wordpress Theme based on understrap with bootstrap and lots of customized Plugins.
+Version: 1.0
+License: Dorfscheune Stübach WordPress Theme, Copyright 2019 Marco Steiner
+Text Domain: dorfscheune
+Tags: one-column, custom-menu, featured-images, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+
+Resource Licenses:
+Font Awesome: http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+Bootstrap: http://getbootstrap.com | https://github.com/twbs/bootstrap/blob/master/LICENSE (Code licensed under MIT, documentation under CC BY 3.0.)
+Owl Carousel 2: http://www.owlcarousel.owlgraphic.com/ | https://github.com/smashingboxes/OwlCarousel2/blob/develop/LICENSE (Code licensed under MIT)
+and of course
+jQuery: https://jquery.org | (Code licensed under MIT)
+WP Bootstrap Navwalker by Edward McIntyre: https://github.com/twittem/wp-bootstrap-navwalker | GNU GPL
+*/
+
+/*
+This file is just used to identify the theme in WordPress.
+The compiled CSS output can be found in /css/theme.css
+The SASS sources for it can be found in /sass/
+The dependencies can be found in /src/ after running "gulp copy-assets" terminal command
+
+...and now go out and play!
+*/
