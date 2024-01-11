@@ -673,17 +673,18 @@ footer ul li:first-child a:after {
   text-decoration: none;
   white-space: nowrap;
   outline: none;
-  opacity: 0.8;
   transition: all 0.2s;
 }
 .cn-set-cookie:hover {
   text-decoration: none;
   border-color: $white;
-  opacity: 1;
 }
 .cn-more-info,
 .cn-more-info:hover {
   color: $white;
+}
+.cn-close-icon:after, .cn-close-icon:before {
+  background-color: $white!important;
 }
 
 // Nextgen Galerie
