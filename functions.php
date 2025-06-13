@@ -140,3 +140,16 @@ remove_action( 'wp_head', 'rest_output_link_wp_head', 10 );
 //function remove_default_endpoints( $endpoints ) {
 //  return array( );
 //}
+
+// Mailbenachrichtigung über WP Core Update deaktivieren
+add_filter('auto_core_update_send_email', '__return_false');
+
+// Mailbenachrichtigung über Plugin-Aktualisierung deaktivieren
+add_filter('auto_plugin_update_send_email', '__return_false');
+
+// Mailbenachrichtigung über Theme-Aktualisierung deaktivieren 
+add_filter('auto_theme_update_send_email', '__return_false');
+
+wp_enqueue_script( 'custom-wpdatatables', get_template_directory_uri() . '/js/custom-wpdatatables.js', array(), $js_version, true );
+wp_enqueue_style( 'custom-wpdatatables', get_stylesheet_directory_uri() . '/css/custom-wpdatatables.css' );
+

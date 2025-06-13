@@ -21,14 +21,14 @@ jQuery(document).ready(function() {
 });
 
 function customTableEdits(){
-    if(typeof swpmUserName != 'undefined') {
-        if(swpmUserName != 'claudiaott' && swpmUserName != 'marcosteiner') {
+    //if(typeof swpmUserName != 'undefined') {
+    //    if(swpmUserName != 'claudiaott' && swpmUserName != 'marcosteiner') {
             jQuery('td').each(function() {
                 var value = jQuery(this).text();
                 if (value !== '') {
                     jQuery(this).addClass('disabledCell');
                 }       
             });
-        }
-    }
+    //    }
+    //}
 }
